@@ -5,7 +5,7 @@ import Image from 'next/image'
 function Hero() {
   return (
     <>
-      <div className='container'>
+      <div className='container pt-20 pl-20'>
         <div className='flex flex-wrap'>
           <div className='w-full self-center p-4 lg:w-1/2'>
             <h1 className='text-base font-semibold text-primary md:text-xl lg:text-2xl'>Selamat Datang Di Website Kami <span className='block font-bold text-dark text-4xl mt-1 lg:text-5xl'>Rekayasa Perangkat Lunak</span></h1>

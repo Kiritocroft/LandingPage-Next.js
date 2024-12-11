@@ -28,9 +28,10 @@ function page() {
       window.addEventListener('scroll',scrollHeader)
     }
   })
+  
   return (
     <>
-      <header className={`${header?'fixed bg-white bg-opacity-80 buram':'absolute bg-transparent'} top-0 left-0 w-full flex items-center z-10`}>
+      <header className={`${header?'fixed bg-white bg-opacity-80 buram':'absolute bg-transparent'} top-0 left-0 w-full items-center z-10`}>
         <div>
           <div className='container'>
             <div className='flex items-center justify-between h-20 relative'>
@@ -65,32 +66,32 @@ function page() {
         </div>
       </header>
       {/* Hero Section */}
-      <section className='px-36  py-32'>
+      <section className='pb-32  pt-36'>
         <Hero />
       </section>
       {/* end Hero Section */}
       {/* About Section */}
-      <section className='px-36  py-32'>
+      <section className='pb-32  pt-36'>
         <About />
       </section>
       {/* end About Section */}
       {/* Portfolio Section */}
-      <section className='px-36  py-32 bg-slate-100'>
+      <section className='pt-32  pb-36 bg-slate-100'>
         <Portfolio />
       </section>
       {/* end Portfolio Section */}
       {/* Client Section */}
-      <section className='px-36  py-32 bg-slate-700'>
+      <section className='pt-32  pb-36 bg-slate-700'>
         <Client />
       </section>
       {/* end Client Section */}
       {/* Blog Section */}
-      <section className='px-36  py-32'>
+      <section className='pt-32  pb-36'>
         <Blog />
       </section>
       {/* end Blog Section */}
       {/* Contact Section */}
-      <section className='px-36  py-32'>
+      <section className='pt-32  pb-36'>
         <Contact />
       </section>
       {/* end Contact Section */}
